@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>ToDo Chat Room</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+<script src='https://cdn.firebase.com/js/client/2.4.0/firebase.js'></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+<script src="jquery-3.2.0.min.js"></script>
+
+<script>var username =prompt("Enter your username");</script>
+
+</head>
+
+
+
+<body>
+
+<div id="page-wrap">
+  <p id="name-area"></p>
+      <h2>ToDo Chat Room</h2>
+
+
+
+      <div id="chat-wrap">
+
+<table>
+        <tbody id="chat-area">
+<tr><td>Text</td><td>User</td></tr>
+      </tbody>
+    </table>
+     </div>
+
+      <form id="send-message-area">
+          <p>Your message: </p>
+          <input id="text" type="text" placeholder="Message" ><br/>
+          <button id="post" type="button" onclick="submitbut()"></button>
+      </form>
+
+
+
+  </div>
+  <h3>Users</h3>
+
+<div id="users">
+<table>
+<tbody id="userbody">
+
+
+
+</tbody>
+</table>
+</div>
+
+<table>
+<tbody id="Todo">
+</tbody>
+</table>
+<script src="index.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
